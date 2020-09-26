@@ -1,0 +1,10 @@
+name: Invoices
+form: $/coderepublic/purchasing/models/invoice/fields.yaml
+modelClass: Coderepublic\Purchasing\Models\Invoice
+defaultRedirect: coderepublic/purchasing/invoices
+create:
+    redirect: 'coderepublic/purchasing/invoices/update/:id'
+    redirectClose: coderepublic/purchasing/invoices
+update:
+    redirect: coderepublic/purchasing/invoices
+    redirectClose: coderepublic/purchasing/invoices

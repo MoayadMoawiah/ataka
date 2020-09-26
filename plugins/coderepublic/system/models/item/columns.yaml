@@ -1,0 +1,34 @@
+columns:
+    sales_invoce_id:
+        label: sales_invoce_id
+        type: text
+    record_idmorphed:
+        label: record_idmorphed
+        type: text
+    record_type:
+        label: record_type
+        type: text
+    unit_price:
+        label: unit_price
+        type: text
+    quantity:
+        label: quantity
+        type: text
+    tax:
+        label: tax
+        type: text
+    exchange_rate:
+        label: exchange_rate
+        type: text
+    dicount:
+        label: dicount
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

@@ -1,0 +1,22 @@
+columns:
+    vendor_id:
+        label: vendor_id
+        type: text
+    invoice_date:
+        label: invoice_date
+        type: text
+    added_ny_id:
+        label: added_ny_id
+        type: text
+    attachments:
+        label: attachments
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

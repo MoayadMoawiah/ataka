@@ -1,0 +1,10 @@
+name: DevicesType
+form: $/coderepublic/system/models/devicetype/fields.yaml
+modelClass: Coderepublic\System\Models\DeviceType
+defaultRedirect: coderepublic/system/devicestype
+create:
+    redirect: 'coderepublic/system/devicestype/update/:id'
+    redirectClose: coderepublic/system/devicestype
+update:
+    redirect: coderepublic/system/devicestype
+    redirectClose: coderepublic/system/devicestype

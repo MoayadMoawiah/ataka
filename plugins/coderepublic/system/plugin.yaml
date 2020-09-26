@@ -1,0 +1,40 @@
+plugin:
+    name: 'coderepublic.system::lang.plugin.name'
+    description: 'coderepublic.system::lang.plugin.description'
+    author: coderepublic
+    icon: oc-icon-desktop
+    homepage: ''
+navigation:
+    device:
+        label: Device
+        url: /
+        icon: icon-life-ring
+        sideMenu:
+            device_type:
+                label: 'Device Type'
+                url: /
+                icon: icon-sitemap
+            card:
+                label: Card
+                url: /
+                icon: icon-sitemap
+            device_status:
+                label: 'Device Status'
+                url: /
+                icon: icon-sitemap
+            item:
+                label: Item
+                url: /
+                icon: icon-sitemap
+            customer:
+                label: Customer
+                url: /
+                icon: icon-sitemap
+            invoice:
+                label: Invoice
+                url: /
+                icon: icon-sitemap
+            reminder:
+                label: Reminder
+                url: /
+                icon: icon-sitemap

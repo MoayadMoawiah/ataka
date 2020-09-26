@@ -1,0 +1,35 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    user_types:
+        label: 'user type id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    invoices:
+        label: 'invoice id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    devices_workflow_to:
+        label: 'device id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    vendors:
+        label: 'vendor name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    vouchers:
+        label: 'voucher id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation

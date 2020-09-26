@@ -1,0 +1,10 @@
+name: Customers
+form: $/coderepublic/system/models/customer/fields.yaml
+modelClass: Coderepublic\System\Models\Customer
+defaultRedirect: coderepublic/system/customers
+create:
+    redirect: 'coderepublic/system/customers/update/:id'
+    redirectClose: coderepublic/system/customers
+update:
+    redirect: coderepublic/system/customers
+    redirectClose: coderepublic/system/customers

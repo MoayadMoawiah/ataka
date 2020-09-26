@@ -1,0 +1,40 @@
+columns:
+    name:
+        label: name
+        type: text
+    account_no:
+        label: account_no
+        type: text
+    nest_left:
+        label: nest_left
+        type: text
+    nest_rigth:
+        label: nest_rigth
+        type: text
+    nest_depth:
+        label: nest_depth
+        type: text
+    record_id_morphed:
+        label: record_id_morphed
+        type: text
+    record_type:
+        label: record_type
+        type: text
+    notes:
+        label: notes
+        type: text
+    category_id:
+        label: category_id
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime
+    parent_id:
+        label: parent_id
+        type: text

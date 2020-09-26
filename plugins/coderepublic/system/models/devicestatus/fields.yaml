@@ -1,0 +1,11 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    device_workflow:
+        label: 'device workflow id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation

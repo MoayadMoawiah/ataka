@@ -1,0 +1,10 @@
+name: TransactionsType
+form: $/coderepublic/accounting/models/transactiontype/fields.yaml
+modelClass: Coderepublic\Accounting\Models\TransactionType
+defaultRedirect: coderepublic/accounting/transactionstype
+create:
+    redirect: 'coderepublic/accounting/transactionstype/update/:id'
+    redirectClose: coderepublic/accounting/transactionstype
+update:
+    redirect: coderepublic/accounting/transactionstype
+    redirectClose: coderepublic/accounting/transactionstype

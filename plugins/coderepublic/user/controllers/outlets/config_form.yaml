@@ -1,0 +1,10 @@
+name: Outlets
+form: $/coderepublic/user/models/outlet/fields.yaml
+modelClass: Coderepublic\User\Models\Outlet
+defaultRedirect: coderepublic/user/outlets
+create:
+    redirect: 'coderepublic/user/outlets/update/:id'
+    redirectClose: coderepublic/user/outlets
+update:
+    redirect: coderepublic/user/outlets
+    redirectClose: coderepublic/user/outlets

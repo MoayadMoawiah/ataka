@@ -1,0 +1,23 @@
+fields:
+    vvoucher_id:
+        label: 'voucher id'
+        span: auto
+        type: text
+    voucher:
+        label: 'voucher id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    account:
+        label: 'account name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    transaction_type:
+        label: 'transaction type name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

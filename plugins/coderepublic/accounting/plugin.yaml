@@ -1,0 +1,32 @@
+plugin:
+    name: 'coderepublic.accounting::lang.plugin.name'
+    description: 'coderepublic.accounting::lang.plugin.description'
+    author: coderepublic
+    icon: oc-icon-sellsy
+    homepage: ''
+navigation:
+    account:
+        label: account
+        url: /
+        icon: icon-life-ring
+        sideMenu:
+            category:
+                label: Category
+                url: /
+                icon: icon-sitemap
+            transaction_type:
+                label: 'Transaction Type'
+                url: /
+                icon: icon-sitemap
+            voucher:
+                label: Voucher
+                url: /
+                icon: icon-sitemap
+            detail:
+                label: Detail
+                url: /
+                icon: icon-sitemap
+            echange_rate:
+                label: 'Exchange Rate'
+                url: /
+                icon: icon-sitemap

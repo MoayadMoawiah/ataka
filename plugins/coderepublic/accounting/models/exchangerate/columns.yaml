@@ -1,0 +1,16 @@
+columns:
+    rate_start_time:
+        label: rate_start_time
+        type: text
+    rate_end_time:
+        label: rate_end_time
+        type: text
+    exchange_rate:
+        label: exchange_rate
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

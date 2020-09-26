@@ -1,0 +1,10 @@
+name: Users
+form: $/coderepublic/user/models/user/fields.yaml
+modelClass: Coderepublic\User\Models\User
+defaultRedirect: coderepublic/user/users
+create:
+    redirect: 'coderepublic/user/users/update/:id'
+    redirectClose: coderepublic/user/users
+update:
+    redirect: coderepublic/user/users
+    redirectClose: coderepublic/user/users

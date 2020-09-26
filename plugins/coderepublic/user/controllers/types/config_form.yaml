@@ -1,0 +1,10 @@
+name: Types
+form: $/coderepublic/user/models/type/fields.yaml
+modelClass: Coderepublic\User\Models\Type
+defaultRedirect: coderepublic/user/types
+create:
+    redirect: 'coderepublic/user/types/update/:id'
+    redirectClose: coderepublic/user/types
+update:
+    redirect: coderepublic/user/types
+    redirectClose: coderepublic/user/types

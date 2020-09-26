@@ -1,0 +1,46 @@
+columns:
+    name:
+        label: name
+        type: text
+    acount_no:
+        label: acount_no
+        type: text
+    oppening_date:
+        label: oppening_date
+        type: text
+    balance:
+        label: balance
+        type: text
+    notes:
+        label: notes
+        type: text
+    phone:
+        label: phone
+        type: text
+    email:
+        label: email
+        type: text
+    address:
+        label: address
+        type: text
+    added_id:
+        label: added_id
+        type: text
+    likes_message:
+        label: likes_message
+        type: text
+    likes_emails:
+        label: likes_emails
+        type: text
+    attachments:
+        label: attachments
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

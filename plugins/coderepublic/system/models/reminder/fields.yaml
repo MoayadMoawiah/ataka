@@ -1,0 +1,5 @@
+fields:
+    reminder_date:
+        label: 'Reminder Date'
+        span: auto
+        type: text

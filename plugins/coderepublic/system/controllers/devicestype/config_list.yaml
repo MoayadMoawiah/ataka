@@ -1,0 +1,12 @@
+list: $/coderepublic/system/models/devicetype/columns.yaml
+modelClass: Coderepublic\System\Models\DeviceType
+title: DevicesType
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'coderepublic/system/devicestype/update/:id'

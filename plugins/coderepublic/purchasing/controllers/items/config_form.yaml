@@ -1,0 +1,10 @@
+name: Items
+form: $/coderepublic/purchasing/models/item/fields.yaml
+modelClass: Coderepublic\Purchasing\Models\Item
+defaultRedirect: coderepublic/purchasing/items
+create:
+    redirect: 'coderepublic/purchasing/items/update/:id'
+    redirectClose: coderepublic/purchasing/items
+update:
+    redirect: coderepublic/purchasing/items
+    redirectClose: coderepublic/purchasing/items

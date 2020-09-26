@@ -1,0 +1,10 @@
+name: Reminders
+form: $/coderepublic/system/models/reminder/fields.yaml
+modelClass: Coderepublic\System\Models\Reminder
+defaultRedirect: coderepublic/system/reminders
+create:
+    redirect: 'coderepublic/system/reminders/update/:id'
+    redirectClose: coderepublic/system/reminders
+update:
+    redirect: coderepublic/system/reminders
+    redirectClose: coderepublic/system/reminders

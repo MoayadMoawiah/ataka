@@ -1,0 +1,11 @@
+fields:
+    record_type:
+        label: 'Record Type'
+        span: auto
+        type: text
+    invoice:
+        label: 'invoice id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation

@@ -1,0 +1,10 @@
+name: Vendors
+form: $/coderepublic/purchasing/models/vendor/fields.yaml
+modelClass: Coderepublic\Purchasing\Models\Vendor
+defaultRedirect: coderepublic/purchasing/vendors
+create:
+    redirect: 'coderepublic/purchasing/vendors/update/:id'
+    redirectClose: coderepublic/purchasing/vendors
+update:
+    redirect: coderepublic/purchasing/vendors
+    redirectClose: coderepublic/purchasing/vendors

@@ -1,0 +1,10 @@
+name: Invoices
+form: $/coderepublic/system/models/invoice/fields.yaml
+modelClass: Coderepublic\System\Models\Invoice
+defaultRedirect: coderepublic/system/invoices
+create:
+    redirect: 'coderepublic/system/invoices/update/:id'
+    redirectClose: coderepublic/system/invoices
+update:
+    redirect: coderepublic/system/invoices
+    redirectClose: coderepublic/system/invoices

@@ -1,0 +1,9 @@
+fields:
+    name:
+        label: name
+        span: auto
+        type: text
+    acount_no:
+        label: 'Acount No'
+        span: auto
+        type: text

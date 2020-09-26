@@ -1,0 +1,12 @@
+list: $/coderepublic/purchasing/models/deviceworkflow/columns.yaml
+modelClass: Coderepublic\Purchasing\Models\DeviceWorkflow
+title: DevicesWorkflow
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'coderepublic/purchasing/devicesworkflow/update/:id'

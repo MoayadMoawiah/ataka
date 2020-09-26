@@ -1,0 +1,27 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    parent_id:
+        label: 'Parent Id'
+        span: auto
+        type: text
+    vouchers:
+        label: 'voucher id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    details:
+        label: detail
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    category:
+        label: 'category name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

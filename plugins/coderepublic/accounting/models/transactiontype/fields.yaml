@@ -1,0 +1,11 @@
+fields:
+    name:
+        label: name
+        span: auto
+        type: text
+    details:
+        label: 'account id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation

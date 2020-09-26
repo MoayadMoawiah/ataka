@@ -1,0 +1,24 @@
+plugin:
+    name: 'coderepublic.user::lang.plugin.name'
+    description: 'coderepublic.user::lang.plugin.description'
+    author: coderepublic
+    icon: oc-icon-user
+    homepage: ''
+navigation:
+    user:
+        label: User
+        url: /
+        icon: icon-life-ring
+        sideMenu:
+            type:
+                label: type
+                url: /
+                icon: icon-sitemap
+            user_type:
+                label: 'User Type'
+                url: /
+                icon: icon-sitemap
+            outlet:
+                label: Outlet
+                url: /
+                icon: icon-sitemap

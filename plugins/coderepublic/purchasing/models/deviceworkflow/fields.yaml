@@ -1,0 +1,29 @@
+fields:
+    comment:
+        label: comment
+        span: auto
+        type: text
+    user_moved_to:
+        label: user_moved_to
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    user_moved_by:
+        label: user_moved_by
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    device:
+        label: 'device number'
+        nameFrom: number
+        descriptionFrom: description
+        span: auto
+        type: relation
+    device_status:
+        label: 'status name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

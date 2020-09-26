@@ -1,0 +1,12 @@
+list: $/coderepublic/system/models/reminder/columns.yaml
+modelClass: Coderepublic\System\Models\Reminder
+title: Reminders
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'coderepublic/system/reminders/update/:id'

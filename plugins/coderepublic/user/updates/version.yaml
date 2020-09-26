@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table coderepublic_user_types'
+    - builder_table_create_coderepublic_user_types.php
+1.0.3:
+    - 'Created table coderepublic_user_users'
+    - builder_table_create_coderepublic_user_users.php
+1.0.4:
+    - 'Created table coderepublic_user_user_types'
+    - builder_table_create_coderepublic_user_user_types.php
+1.0.5:
+    - 'Created table coderepublic_user_outlet'
+    - builder_table_create_coderepublic_user_outlet.php

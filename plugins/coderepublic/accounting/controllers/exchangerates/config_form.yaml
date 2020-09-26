@@ -1,0 +1,10 @@
+name: ExchangeRates
+form: $/coderepublic/accounting/models/exchangerate/fields.yaml
+modelClass: Coderepublic\Accounting\Models\ExchangeRate
+defaultRedirect: coderepublic/accounting/exchangerates
+create:
+    redirect: 'coderepublic/accounting/exchangerates/update/:id'
+    redirectClose: coderepublic/accounting/exchangerates
+update:
+    redirect: coderepublic/accounting/exchangerates
+    redirectClose: coderepublic/accounting/exchangerates

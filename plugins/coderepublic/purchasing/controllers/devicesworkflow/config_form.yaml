@@ -1,0 +1,10 @@
+name: DevicesWorkflow
+form: $/coderepublic/purchasing/models/deviceworkflow/fields.yaml
+modelClass: Coderepublic\Purchasing\Models\DeviceWorkflow
+defaultRedirect: coderepublic/purchasing/devicesworkflow
+create:
+    redirect: 'coderepublic/purchasing/devicesworkflow/update/:id'
+    redirectClose: coderepublic/purchasing/devicesworkflow
+update:
+    redirect: coderepublic/purchasing/devicesworkflow
+    redirectClose: coderepublic/purchasing/devicesworkflow

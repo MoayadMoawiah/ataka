@@ -1,0 +1,35 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table coderepublic_system_devices'
+    - builder_table_create_coderepublic_system_devices.php
+1.0.3:
+    - 'Created table coderepublic_system_device_type'
+    - builder_table_create_coderepublic_system_device_type.php
+1.0.4:
+    - 'Created table coderepublic_system_cards'
+    - builder_table_create_coderepublic_system_cards.php
+1.0.5:
+    - 'Created table coderepublic_system_devices_status'
+    - builder_table_create_coderepublic_system_devices_status.php
+1.0.6:
+    - 'Created table coderepublic_system_items'
+    - builder_table_create_coderepublic_system_items.php
+1.0.7:
+    - 'Created table coderepublic_system_customers'
+    - builder_table_create_coderepublic_system_customers.php
+1.0.8:
+    - 'Created table coderepublic_system_invoices'
+    - builder_table_create_coderepublic_system_invoices.php
+1.0.9:
+    - 'Created table coderepublic_system_reminders'
+    - builder_table_create_coderepublic_system_reminders.php
+1.0.10:
+    - 'Updated table coderepublic_system_items'
+    - builder_table_update_coderepublic_system_items.php
+1.0.11:
+    - 'Updated table coderepublic_system_customers'
+    - builder_table_update_coderepublic_system_customers.php
+1.0.12:
+    - 'Updated table coderepublic_system_customers'
+    - builder_table_update_coderepublic_system_customers_2.php

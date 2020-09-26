@@ -1,0 +1,10 @@
+name: Categories
+form: $/coderepublic/accounting/models/category/fields.yaml
+modelClass: Coderepublic\Accounting\Models\Category
+defaultRedirect: coderepublic/accounting/categories
+create:
+    redirect: 'coderepublic/accounting/categories/update/:id'
+    redirectClose: coderepublic/accounting/categories
+update:
+    redirect: coderepublic/accounting/categories
+    redirectClose: coderepublic/accounting/categories

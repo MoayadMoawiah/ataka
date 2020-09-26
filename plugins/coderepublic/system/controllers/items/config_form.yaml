@@ -1,0 +1,10 @@
+name: Items
+form: $/coderepublic/system/models/item/fields.yaml
+modelClass: Coderepublic\System\Models\Item
+defaultRedirect: coderepublic/system/items
+create:
+    redirect: 'coderepublic/system/items/update/:id'
+    redirectClose: coderepublic/system/items
+update:
+    redirect: coderepublic/system/items
+    redirectClose: coderepublic/system/items

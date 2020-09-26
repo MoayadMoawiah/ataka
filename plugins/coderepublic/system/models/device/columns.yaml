@@ -1,0 +1,16 @@
+columns:
+    number:
+        label: number
+        type: text
+    device_type_id:
+        label: device_type_id
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

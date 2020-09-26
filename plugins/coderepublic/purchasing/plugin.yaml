@@ -1,0 +1,24 @@
+plugin:
+    name: 'coderepublic.purchasing::lang.plugin.name'
+    description: 'coderepublic.purchasing::lang.plugin.description'
+    author: coderepublic
+    icon: oc-icon-dollar
+    homepage: ''
+navigation:
+    invoice:
+        label: Invoice
+        url: coderepublic/purchasing/invoices
+        icon: icon-life-ring
+        sideMenu:
+            item:
+                label: Item
+                url: /
+                icon: icon-sitemap
+            vendor:
+                label: Vendor
+                url: /
+                icon: icon-sitemap
+            device_workflow:
+                label: 'Device Workflow'
+                url: /
+                icon: icon-sitemap

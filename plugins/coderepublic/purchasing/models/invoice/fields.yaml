@@ -1,0 +1,24 @@
+fields:
+    invoice_date:
+        label: 'invoice date'
+        mode: datetime
+        span: auto
+        type: datepicker
+    user:
+        label: 'user name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    vendor:
+        label: 'vendor name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    items:
+        label: 'item id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation

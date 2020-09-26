@@ -1,0 +1,11 @@
+fields:
+    number:
+        label: Number
+        span: auto
+        type: text
+    device:
+        label: 'device number'
+        nameFrom: number
+        descriptionFrom: description
+        span: auto
+        type: relation

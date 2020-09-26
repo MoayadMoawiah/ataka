@@ -1,0 +1,15 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    notes:
+        label: Notes
+        span: auto
+        type: text
+    devices:
+        label: 'device number'
+        nameFrom: number
+        descriptionFrom: description
+        span: auto
+        type: relation

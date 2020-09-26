@@ -1,0 +1,10 @@
+name: Details
+form: $/coderepublic/accounting/models/detail/fields.yaml
+modelClass: Coderepublic\Accounting\Models\Detail
+defaultRedirect: coderepublic/accounting/details
+create:
+    redirect: 'coderepublic/accounting/details/update/:id'
+    redirectClose: coderepublic/accounting/details
+update:
+    redirect: coderepublic/accounting/details
+    redirectClose: coderepublic/accounting/details

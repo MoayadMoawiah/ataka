@@ -1,0 +1,34 @@
+columns:
+    issued_by:
+        label: issued_by
+        type: text
+    account_id:
+        label: account_id
+        type: text
+    voucher_date:
+        label: voucher_date
+        type: text
+    serial:
+        label: serial
+        type: text
+    narration:
+        label: narration
+        type: text
+    record_id_morphed:
+        label: record_id_morphed
+        type: text
+    record_type:
+        label: record_type
+        type: text
+    attachment:
+        label: attachment
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

@@ -1,0 +1,10 @@
+name: DevicesStatus
+form: $/coderepublic/system/models/devicestatus/fields.yaml
+modelClass: Coderepublic\System\Models\DeviceStatus
+defaultRedirect: coderepublic/system/devicesstatus
+create:
+    redirect: 'coderepublic/system/devicesstatus/update/:id'
+    redirectClose: coderepublic/system/devicesstatus
+update:
+    redirect: coderepublic/system/devicesstatus
+    redirectClose: coderepublic/system/devicesstatus

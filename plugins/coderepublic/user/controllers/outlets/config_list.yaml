@@ -1,0 +1,12 @@
+list: $/coderepublic/user/models/outlet/columns.yaml
+modelClass: Coderepublic\User\Models\Outlet
+title: Outlets
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'coderepublic/user/outlets/update/:id'

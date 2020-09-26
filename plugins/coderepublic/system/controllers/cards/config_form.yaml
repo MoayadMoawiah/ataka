@@ -1,0 +1,10 @@
+name: Cards
+form: $/coderepublic/system/models/card/fields.yaml
+modelClass: Coderepublic\System\Models\Card
+defaultRedirect: coderepublic/system/cards
+create:
+    redirect: 'coderepublic/system/cards/update/:id'
+    redirectClose: coderepublic/system/cards
+update:
+    redirect: coderepublic/system/cards
+    redirectClose: coderepublic/system/cards

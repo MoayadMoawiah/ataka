@@ -1,0 +1,5 @@
+fields:
+    rate_start_time:
+        label: 'rate start time'
+        span: auto
+        type: text

@@ -1,0 +1,10 @@
+name: Vouchers
+form: $/coderepublic/accounting/models/voucher/fields.yaml
+modelClass: Coderepublic\Accounting\Models\Voucher
+defaultRedirect: coderepublic/accounting/vouchers
+create:
+    redirect: 'coderepublic/accounting/vouchers/update/:id'
+    redirectClose: coderepublic/accounting/vouchers
+update:
+    redirect: coderepublic/accounting/vouchers
+    redirectClose: coderepublic/accounting/vouchers

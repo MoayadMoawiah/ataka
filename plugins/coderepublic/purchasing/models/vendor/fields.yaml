@@ -1,0 +1,41 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    invoices:
+        label: 'invoice id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    user:
+        label: 'user name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    user_moved_to:
+        label: user_moved_to
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    user_moved_by:
+        label: user_moved_by
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    device:
+        label: 'device number'
+        nameFrom: 'device number'
+        descriptionFrom: description
+        span: auto
+        type: relation
+    device_status:
+        label: 'status name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

@@ -1,0 +1,31 @@
+columns:
+    purchase_invoice_id:
+        label: purchase_invoice_id
+        type: text
+    device_id:
+        label: device_id
+        type: text
+    unit_price:
+        label: unit_price
+        type: text
+    quantity:
+        label: quantity
+        type: text
+    tax:
+        label: tax
+        type: text
+    exchange_rate:
+        label: exchange_rate
+        type: text
+    dicount:
+        label: dicount
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

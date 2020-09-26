@@ -1,0 +1,17 @@
+fields:
+    unit_price:
+        label: 'Unit Price'
+        span: auto
+        type: text
+    invoice:
+        label: 'invoice id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    device:
+        label: 'device number'
+        nameFrom: number
+        descriptionFrom: description
+        span: auto
+        type: relation

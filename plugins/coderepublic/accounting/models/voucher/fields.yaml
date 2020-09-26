@@ -1,0 +1,23 @@
+fields:
+    voucher_date:
+        label: 'voucher Date'
+        span: auto
+        type: text
+    details:
+        label: 'detail id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    user:
+        label: 'user name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    account:
+        label: 'account name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

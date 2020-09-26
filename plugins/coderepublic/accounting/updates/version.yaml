@@ -1,0 +1,29 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table coderepublic_accounting_accounts'
+    - builder_table_create_coderepublic_accounting_accounts.php
+1.0.3:
+    - 'Created table coderepublic_accounting_categories'
+    - builder_table_create_coderepublic_accounting_categories.php
+1.0.4:
+    - 'Created table coderepublic_accounting_transactions_type'
+    - builder_table_create_coderepublic_accounting_transactions_type.php
+1.0.5:
+    - 'Created table coderepublic_accounting_vouchers'
+    - builder_table_create_coderepublic_accounting_vouchers.php
+1.0.6:
+    - 'Created table coderepublic_accounting_details'
+    - builder_table_create_coderepublic_accounting_details.php
+1.0.7:
+    - 'Created table coderepublic_accounting_exchange_rate'
+    - builder_table_create_coderepublic_accounting_exchange_rate.php
+1.0.8:
+    - 'Updated table coderepublic_accounting_accounts'
+    - builder_table_update_coderepublic_accounting_accounts.php
+1.0.9:
+    - 'Updated table coderepublic_accounting_vouchers'
+    - builder_table_update_coderepublic_accounting_vouchers.php
+1.0.10:
+    - 'Updated table coderepublic_accounting_details'
+    - builder_table_update_coderepublic_accounting_details.php

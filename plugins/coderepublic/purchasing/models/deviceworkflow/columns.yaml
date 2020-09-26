@@ -1,0 +1,25 @@
+columns:
+    moved_to_id:
+        label: moved_to_id
+        type: text
+    moved_by_id:
+        label: moved_by_id
+        type: text
+    device_id:
+        label: device_id
+        type: text
+    status_id:
+        label: status_id
+        type: text
+    comment:
+        label: comment
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

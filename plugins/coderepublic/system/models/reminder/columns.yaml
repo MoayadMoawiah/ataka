@@ -1,0 +1,22 @@
+columns:
+    reminder_date:
+        label: reminder_date
+        type: text
+    user_id:
+        label: user_id
+        type: text
+    record_id_morphed:
+        label: record_id_morphed
+        type: text
+    record_type:
+        label: record_type
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

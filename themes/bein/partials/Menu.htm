@@ -1,0 +1,55 @@
+==
+<div class="menu">
+    <ul class="list">
+        <li class="header">MAIN NAVIGATION</li>
+        <li class="{% if this.page.id == 'customers' %}active{% endif %}">
+            <a href="{{ 'customers'|page }}">
+                <i class="material-icons">person</i>
+                <span>Customers</span>
+            </a>
+        </li>
+        <li class="{% if this.page.id == 'devices' or this.page.id == 'subscription' or this.page.id == 'cards' %}active{% endif %}">
+            <a href="javascript:void(0);" class="menu-toggle">
+                <i class="material-icons">shopping_cart</i>
+                <span>Sales</span>
+            </a>
+            <ul class="ml-menu">
+                <li class="{% if this.page.id == 'devices' %}active{% endif %}">
+                    <a href="{{ 'devices'|page }}">Devices</a>
+                </li>
+                <li class="{% if this.page.id == 'subscription' %}active{% endif %}">
+                    <a href="{{ 'subscription'|page }}">Subscription</a>
+                </li>
+                <li class="{% if this.page.id == 'cards' %}active{% endif %}">
+                    <a href="{{ 'cards'|page }}">Cards</a>
+                </li>
+            </ul>
+        </li>
+        <li class="{% if this.page.id == 'subdealers' or this.page.id == 'agents' %}active{% endif %}">
+            <a href="javascript:void(0);" class="menu-toggle">
+                <i class="material-icons">devices_other</i>
+                <span>Distributers</span>
+            </a>
+            <ul class="ml-menu">
+                <li class="{% if this.page.id == 'subdealers' %}active{% endif %}">
+                    <a href="{{ 'subdealers'|page }}">Subdealers</a>
+                </li>
+                <li class="{% if this.page.id == 'agents' %}active{% endif %}">
+                    <a href="{{ 'agents'|page }}">Agents</a>
+                </li>
+            </ul>
+        </li>
+        <li class="{% if this.page.id == 'invoices' %}active{% endif %}">
+            <a href="{{ 'invoices'|page }}">
+                <i class="material-icons">receipt</i>
+                <span>Invoices</span>
+            </a>
+        </li>
+        <li class="{% if this.page.id == 'users' %}active{% endif %}">
+            <a href="{{ 'users'|page }}">
+                <i class="material-icons">group</i>
+                <span>Users</span>
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,23 @@
+fields:
+    number:
+        label: Number
+        span: auto
+        type: text
+    devicees_workflow:
+        label: 'devicees_workflow id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    items:
+        label: 'item id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    card:
+        label: 'card number'
+        nameFrom: number
+        descriptionFrom: description
+        span: auto
+        type: relation

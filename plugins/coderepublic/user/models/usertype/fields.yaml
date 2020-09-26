@@ -1,0 +1,17 @@
+fields:
+    id:
+        label: Id
+        span: auto
+        type: text
+    type:
+        label: 'type name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    user:
+        label: 'user name'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

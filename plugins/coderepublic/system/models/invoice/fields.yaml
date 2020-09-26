@@ -1,0 +1,11 @@
+fields:
+    customer_id:
+        label: 'Customer Id'
+        span: auto
+        type: text
+    items:
+        label: 'item id'
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation

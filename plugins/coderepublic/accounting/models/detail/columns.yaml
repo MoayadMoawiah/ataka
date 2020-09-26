@@ -1,0 +1,19 @@
+columns:
+    voucher_id:
+        label: voucher_id
+        type: text
+    account_id:
+        label: account_id
+        type: text
+    transation_type_id:
+        label: transation_type_id
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

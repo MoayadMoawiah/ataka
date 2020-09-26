@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table coderepublic_purchasing_invoices'
+    - builder_table_create_coderepublic_purchasing_invoices.php
+1.0.3:
+    - 'Created table coderepublic_purchasing_items'
+    - builder_table_create_coderepublic_purchasing_items.php
+1.0.4:
+    - 'Created table coderepublic_purchasing_vendors'
+    - builder_table_create_coderepublic_purchasing_vendors.php
+1.0.5:
+    - 'Created table coderepublic_purchasing_devices_workflow'
+    - builder_table_create_coderepublic_purchasing_devices_workflow.php
